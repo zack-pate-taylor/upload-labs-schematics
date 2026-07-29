@@ -1,0 +1,134 @@
+[schematic]
+
+windows=[{
+"color": 0,
+"container_data": {},
+"custom_icon": "code",
+"custom_name": "Bulk Fix",
+"filename": "window_group.tscn",
+"name": "group9",
+"position": Vector2(5900, 9050),
+"size": Vector2(1150, 650),
+"window": "group"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Array": {
+"id": "74fc1fda0d01",
+"outputs_id": Array[String](["5111ed813cf0"]),
+"resource": "array_bool",
+"variation": 0
+},
+"PanelContainer/MainContainer/Variable": {
+"id": "054057d4d456",
+"outputs_id": Array[String]([]),
+"resource": "bool",
+"variation": 0
+}
+},
+"filename": "window_code_array.tscn",
+"name": "code_array6",
+"position": Vector2(6300, 9100),
+"window": "code_array"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Array": {
+"id": "a2f96ed0ad6e",
+"outputs_id": Array[String](["c164d6259bdb"]),
+"resource": "array_int",
+"variation": 0
+},
+"PanelContainer/MainContainer/Variable": {
+"id": "27928c97f803",
+"outputs_id": Array[String]([]),
+"resource": "int",
+"variation": 0
+}
+},
+"filename": "window_code_array.tscn",
+"name": "code_array7",
+"position": Vector2(6300, 9350),
+"window": "code_array"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/CodeSpeed": {
+"id": "100ee6af7917",
+"outputs_id": Array[String]([]),
+"resource": "code_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/bool/ResourceContainer/Resource": {
+"id": "e22004cc0ce6",
+"outputs_id": Array[String](["054057d4d456"]),
+"resource": "bool",
+"variation": 0
+},
+"PanelContainer/MainContainer/char/ResourceContainer/Resource": {
+"id": "6935fe7f49c7",
+"outputs_id": Array[String]([]),
+"resource": "char",
+"variation": 0
+},
+"PanelContainer/MainContainer/float/ResourceContainer/Resource": {
+"id": "98a92efad66f",
+"outputs_id": Array[String]([]),
+"resource": "float",
+"variation": 0
+},
+"PanelContainer/MainContainer/int/ResourceContainer/Resource": {
+"id": "bf225da1d991",
+"outputs_id": Array[String](["27928c97f803"]),
+"resource": "int",
+"variation": 0
+}
+},
+"filename": "window_ide.tscn",
+"name": "ide4",
+"position": Vector2(5900, 9100),
+"var_bool_ratio": 1.0,
+"var_char_ratio": 0.0,
+"var_float_ratio": 0.0,
+"var_int_ratio": 1.0,
+"window": "ide"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Code": {
+"id": "576f8e08ef29",
+"outputs_id": Array[String]([]),
+"resource": "code_bugfix",
+"variation": 0
+},
+"PanelContainer/MainContainer/Requirements/Bool": {
+"id": "5111ed813cf0",
+"outputs_id": Array[String]([]),
+"resource": "array_bool",
+"variation": 0
+},
+"PanelContainer/MainContainer/Requirements/Int": {
+"id": "c164d6259bdb",
+"outputs_id": Array[String]([]),
+"resource": "array_int",
+"variation": 0
+}
+},
+"filename": "window_code_bugfix_array.tscn",
+"name": "code_bugfix_array0",
+"position": Vector2(6700, 9100),
+"window": "code_bugfix_array"
+}]
+connectors={
+"054057d4d456": {
+"custom_points": Array[Vector2]([])
+},
+"27928c97f803": {
+"custom_points": Array[Vector2]([])
+},
+"5111ed813cf0": {
+"custom_points": Array[Vector2]([])
+},
+"c164d6259bdb": {
+"custom_points": Array[Vector2]([])
+}
+}
+rect=Rect2(5900, 9050, 1150, 650)
+icon="code"
+version=3
