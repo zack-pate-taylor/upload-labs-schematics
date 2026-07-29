@@ -1,0 +1,93 @@
+[schematic]
+
+windows=[{
+"color": 0,
+"container_data": {},
+"custom_icon": "code",
+"custom_name": "Commits",
+"filename": "window_group.tscn",
+"name": "group20",
+"position": Vector2(4800, 5300),
+"size": Vector2(1200, 350),
+"window": "group"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Augment": {
+"id": "4e40d2df7348",
+"outputs_id": Array[String]([]),
+"resource": "char",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input": {
+"id": "11d198e7213d",
+"outputs_id": Array[String]([]),
+"resource": "code_driver",
+"variation": 157
+},
+"PanelContainer/MainContainer/Output": {
+"id": "f29e9c72681b",
+"outputs_id": Array[String](["201754927216"]),
+"resource": "code_driver",
+"variation": 221
+}
+},
+"filename": "window_comment_code.tscn",
+"name": "comment_code0",
+"position": Vector2(5200, 5350),
+"window": "comment_code"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Code": {
+"id": "201754927216",
+"outputs_id": Array[String]([]),
+"resource": "code_driver",
+"variation": 221
+},
+"PanelContainer/MainContainer/Contribution": {
+"id": "6b2f5dbc9c87",
+"outputs_id": Array[String]([]),
+"resource": "contribution",
+"variation": 0
+}
+},
+"filename": "window_commit.tscn",
+"name": "commit0",
+"position": Vector2(5600, 5350),
+"window": "commit"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Result": {
+"id": "a653d2b1dfa0",
+"outputs_id": Array[String](["4e40d2df7348"]),
+"resource": "char",
+"variation": 0
+},
+"PanelContainer/MainContainer/Speed": {
+"id": "a728d1edd1f2",
+"outputs_id": Array[String]([]),
+"resource": "code_speed",
+"variation": 0
+}
+},
+"filename": "window_code_char.tscn",
+"name": "code_char0",
+"position": Vector2(4800, 5350),
+"window": "code_char"
+}]
+connectors={
+"11d198e7213d": {
+"custom_points": Array[Vector2]([])
+},
+"201754927216": {
+"custom_points": Array[Vector2]([])
+},
+"4e40d2df7348": {
+"custom_points": Array[Vector2]([])
+},
+"a728d1edd1f2": {
+"custom_points": Array[Vector2]([])
+}
+}
+rect=Rect2(4800, 5300, 1200, 350)
+icon="code"
+version=3
